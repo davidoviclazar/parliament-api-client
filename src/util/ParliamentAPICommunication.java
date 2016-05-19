@@ -20,7 +20,7 @@ public class ParliamentAPICommunication {
 	private static final String membersURL = "http://147.91.128.71:9090/parlament/api/members";
 	private static final SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy.");
 
-	public List<Deputy> returnDeputies() {
+	public static List<Deputy> returnDeputies() {
 
 		List<Deputy> deputies = new LinkedList<>();
 
@@ -57,7 +57,11 @@ public class ParliamentAPICommunication {
 		return deputies;
 	}
 
-	private String sendGet(String url) throws IOException {
+	public static JsonArray returnInJSON() throws Exception {
+		return new GsonBuilder().setPrettyPrinting().create().fromJson(sendGet(membersURL), JsonArray.class);
+	}
+
+	private static String sendGet(String url) throws IOException {
 		URL obj = new URL(url);
 		HttpURLConnection conn = (HttpURLConnection) obj.openConnection();
 		conn.setRequestMethod("GET");

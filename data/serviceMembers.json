@@ -1,0 +1,190 @@
+[
+  {
+    "meta": {
+      "href": "http://147.91.128.71:9090/parlament/api/members/12411"
+    },
+    "id": 12411,
+    "name": "Dragan",
+    "lastName": "Aćimović",
+    "gender": "m",
+    "biography": "Rođen je 1976. godine. Po zanimanju je preduzetnik.\r\n\r\n\t\tŽivi u Banovom Polju u opštini Bogatić.",
+    "parties": [
+      {
+        "meta": {
+          "href": "http://147.91.128.71:9090/parlament/api/parties/430"
+        },
+        "id": 430,
+        "title": "Srpska radikalna stranka - SRS",
+        "members": "http://147.91.128.71:9090/parlament/api/parties/430/members"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "href": "http://147.91.128.71:9090/parlament/api/members/189778"
+    },
+    "id": 189778,
+    "name": "Nevena",
+    "lastName": "Adžemović",
+    "birthDate": "01.01.1982.",
+    "placeOfResidence": "Beograd",
+    "gender": "f",
+    "biography": "Rođena je 1982. godine u Beogradu. Po zanimanju je ekonomista. U javnosti je poznata kao nekadašnja �?lanica dens grupe “Models�?. Autor je knjige �?Kako sa�?uvati srpski rod�?, u kojoj piše o borbi protiv bele kuge. Razvedena, majka jednog deteta.",
+    "parties": [
+      {
+        "meta": {
+          "href": "http://147.91.128.71:9090/parlament/api/parties/446"
+        },
+        "id": 446,
+        "title": "Nova Srbija - NS",
+        "members": "http://147.91.128.71:9090/parlament/api/parties/446/members"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "href": "http://147.91.128.71:9090/parlament/api/members/226686"
+    },
+    "id": 226686,
+    "name": "Slobodan",
+    "lastName": "Adžić",
+    "birthDate": "01.01.1959.",
+    "parties": [
+      {
+        "meta": {
+          "href": "http://147.91.128.71:9090/parlament/api/parties/436"
+        },
+        "id": 436,
+        "title": "Demokratska stranka Srbije - DSS",
+        "members": "http://147.91.128.71:9090/parlament/api/parties/436/members"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "href": "http://147.91.128.71:9090/parlament/api/members/75049"
+    },
+    "id": 75049,
+    "name": "Borjan",
+    "lastName": "Agatonović",
+    "birthPlace": "Donji Ribnik",
+    "gender": "m",
+    "biography": "Rođen je 1. maja 1956. godine u Donjem Ribniku. Po zanimanju je diplomirani ekonomista. Radi kao finansijski direktor T.P. „Zapadna Morava“ A.D. Trstenik.\r\n\r\n\t\tČlan je Demokratske stranke od 2001. godine. Član Glavnog odbora DS, Opštinskog i Izvršnog odbora DS Trstenik.\r\n\r\n\t\tOpštinski odbornik od 2001. godine. Bio je direktor JP Direkcija za planiranje i izgradnju \"Trstenik\" od 2005. godine.\r\n\r\n\t\tOženjen, otac dvoje dece. Živi u Trsteniku.",
+    "parties": [
+      {
+        "meta": {
+          "href": "http://147.91.128.71:9090/parlament/api/parties/435"
+        },
+        "id": 435,
+        "title": "Demokratska stranka - DS",
+        "members": "http://147.91.128.71:9090/parlament/api/parties/435/members"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "href": "http://147.91.128.71:9090/parlament/api/members/18597"
+    },
+    "id": 18597,
+    "name": "Danka",
+    "lastName": "Aksentijević",
+    "biography": "Diplomirala je na ekonomskom fakultetu u Kragujevcu 1989. godine. 2001. je položila stru�?ni ispit i stekla zvanje ovlašćenog ra�?unovođe.\n\t\t\n\t\tRadila je kao direktorka filijale Poreske uprave u Užicu od 2004. do 2009. godine. 18. marta 2009. godine izabrana je od strane Narodne skupštine za �?lana Saveta Državne revizorske institucije, a 12. maja 2009. položila je zakletvu.\n\t\t\n\t\tBila je �?lanica G17 Plus od 2000. do 2009. godine.\n\t\t\n\t\tUdata je i majka dve kćerke."
+  },
+  {
+    "meta": {
+      "href": "http://147.91.128.71:9090/parlament/api/members/414789"
+    },
+    "id": 414789,
+    "name": "Siniša",
+    "lastName": "Aksentijević ",
+    "birthDate": "01.01.1939.",
+    "parties": [
+      {
+        "meta": {
+          "href": "http://147.91.128.71:9090/parlament/api/parties/430"
+        },
+        "id": 430,
+        "title": "Srpska radikalna stranka - SRS",
+        "members": "http://147.91.128.71:9090/parlament/api/parties/430/members"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "href": "http://147.91.128.71:9090/parlament/api/members/6825"
+    },
+    "id": 6825,
+    "name": "Miloljub",
+    "lastName": "Albijanić",
+    "birthDate": "01.01.1967.",
+    "gender": "m",
+    "biography": "Miloljub Albijanić je docent na predmetu Matematika na FEFA.\r\n\r\n\t\t\u0026nbsp;\r\n\r\n\t\tDiplomirao na Matemati�?kom fakultetu Univerziteta u Beogradu, smer Numeri�?ka matematika, kibernetika i optimizacija i stekao zvanje diplomirani matemati�?ar. Na istom fakultetu 2007. godine odbranio je specijalisti�?ki rad. Završio je poslediplomske studije na Fakultetu za ekonomiju, finansije i administraciju – FEFA 2008. godine i odbranio master rad.\r\n\r\n\t\t\u0026nbsp;\r\n\r\n\t\tDoktorske studije završio je na univerzitetu Singidunum 2011. godine i odbranio doktorsku disertaciju Kvantifikacija uticaja intelektualnog kapitala na konkurentnost.\r\n\r\n\t\tBio je profesor matematike od 1995. do 2003, a 2003. direktor Elektrotehni�?ke škole Nikola Tesla u Beogradu i 2004. godine zamenik direktora Zavoda za unapređivanje obrazovanja i vaspitanja. Narodni poslanik u Narodnoj skupštini\r\n\r\n\t\tRepublike Srbije je bio od 2004. do 2008, predsednik Poslani�?kog kluba od 2004. do 2006, a potpredsednik Narodne skupštine Republike Srbije 2007–2008. godine. Od 2007. godine profesor je analize sa algebrom u Matemati�?koj gimnaziji u Beogradu, a od 2008. godine direktor Zavoda za udžbenike. Autor je knjige Intelektualni kapital: uticaj na konkurentnost i ekonomski rast, koautor je zbirki zadataka iz matematike za prvi i drugi razred srednje škole i autor više stru�?nih radova.",
+    "parties": [
+      {
+        "meta": {
+          "href": "http://147.91.128.71:9090/parlament/api/parties/439"
+        },
+        "id": 439,
+        "title": "G17 Plus - G17+",
+        "members": "http://147.91.128.71:9090/parlament/api/parties/439/members"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "href": "http://147.91.128.71:9090/parlament/api/members/220203"
+    },
+    "id": 220203,
+    "name": "Bojana",
+    "lastName": "Aleksić",
+    "birthDate": "01.01.1961.",
+    "parties": [
+      {
+        "meta": {
+          "href": "http://147.91.128.71:9090/parlament/api/parties/436"
+        },
+        "id": 436,
+        "title": "Demokratska stranka Srbije - DSS",
+        "members": "http://147.91.128.71:9090/parlament/api/parties/436/members"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "href": "http://147.91.128.71:9090/parlament/api/members/1479"
+    },
+    "id": 1479,
+    "name": "Boris",
+    "lastName": "Aleksić",
+    "gender": "m",
+    "parties": [
+      {
+        "meta": {
+          "href": "http://147.91.128.71:9090/parlament/api/parties/430"
+        },
+        "id": 430,
+        "title": "Srpska radikalna stranka - SRS",
+        "members": "http://147.91.128.71:9090/parlament/api/parties/430/members"
+      }
+    ]
+  },
+  {
+    "meta": {
+      "href": "http://147.91.128.71:9090/parlament/api/members/414818"
+    },
+    "id": 414818,
+    "name": "Gradimir",
+    "lastName": "Aleksić",
+    "birthDate": "01.01.1945.",
+    "parties": [
+      {
+        "meta": {
+          "href": "http://147.91.128.71:9090/parlament/api/parties/429"
+        },
+        "id": 429,
+        "title": "Socijalisti�?ka partija Srbije - SPS",
+        "members": "http://147.91.128.71:9090/parlament/api/parties/429/members"
+      }
+    ]
+  }
+]
