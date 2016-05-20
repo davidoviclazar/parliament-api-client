@@ -79,4 +79,29 @@ public class ParliamentAPICommunication {
 
 	}
 
+	public static JsonArray transferToJSONArray(List<Deputy> deputies) {
+		JsonArray jsonArray = new JsonArray();
+
+		JsonObject jsonObject = null;
+
+		for (int i = 0; i < deputies.size(); i++) {
+			Deputy d = deputies.get(i);
+
+			jsonObject = new JsonObject();
+			jsonObject.addProperty("id", d.getId());
+			jsonObject.addProperty("name", d.getFirstName());
+			jsonObject.addProperty("lastName", d.getLastName());
+			try {
+				jsonObject.addProperty("birthDate", sdf.format(d.getBirthDate()));
+			} catch (Exception e) {
+
+				jsonObject.addProperty("birthDate", "Unknown");
+			}
+
+			jsonArray.add(jsonObject);
+
+		}
+
+		return jsonArray;
+	}
 }

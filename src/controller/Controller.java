@@ -4,6 +4,7 @@ import java.awt.EventQueue;
 import java.io.BufferedWriter;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -120,4 +121,26 @@ public class Controller {
 		return deputies;
 	}
 
+	public static void updateMembers() {
+		TableModel dtm = (TableModel) mainForm.getTable().getModel();
+
+		List<Deputy> deputies = dtm.getDeputies();
+
+		JsonArray jsonArray = ParliamentAPICommunication.transferToJSONArray(deputies);
+
+		try {
+			PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter("data/updatedMembers.json")));
+
+			out.println(new GsonBuilder().setPrettyPrinting().create().toJson(jsonArray));
+
+			out.close();
+
+			addInStatus("Changes are saved!");
+
+		} catch (IOException e) {
+			JOptionPane.showMessageDialog(mainForm, "An error occurred when saving!", "Error!",
+					JOptionPane.ERROR_MESSAGE);
+		}
+
+	}
 }

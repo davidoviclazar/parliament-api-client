@@ -132,6 +132,10 @@ public class TableModel extends AbstractTableModel {
 		}
 	}
 
+	public List<Deputy> getDeputies() {
+		return deputies;
+	}
+
 	public void emptyList() {
 		deputies = new LinkedList<>();
 		fireTableDataChanged();

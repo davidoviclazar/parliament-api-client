@@ -106,6 +106,11 @@ public class MainForm extends JFrame {
 	private JButton getBtnUpdateMembers() {
 		if (btnUpdateMembers == null) {
 			btnUpdateMembers = new JButton("Update members");
+			btnUpdateMembers.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent arg0) {
+					Controller.updateMembers();
+				}
+			});
 			btnUpdateMembers.setPreferredSize(new Dimension(160, 30));
 		}
 		return btnUpdateMembers;
